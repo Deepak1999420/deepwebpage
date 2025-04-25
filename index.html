@@ -24,12 +24,16 @@
       box-shadow: 0 12px 32px rgba(0,0,0,0.12);
       max-width: 950px;
       width: 100%;
+      padding: 1rem;
+      box-sizing: border-box;
+
     }
 
-    .profile {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
+    .profile img {
+      width: 180px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 16px;
     }
 
     .profile img {
@@ -149,6 +153,10 @@
       .profile img {
         width: 300%;
         min-width: 1700px;
+      }
+      .bio {
+        width: 100%;
+        text-align: center;
       }
     }
   </style>
